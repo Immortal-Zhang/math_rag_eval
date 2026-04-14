@@ -1,0 +1,24 @@
+{"query_id": "q_01", "query": "什么是压缩映射原理？", "relevant_doc_id": "doc_01", "reference_keywords": ["完备度量空间", "唯一不动点", "迭代", "收敛"]}
+{"query_id": "q_02", "query": "压缩映射原理为什么能保证不动点唯一？", "relevant_doc_id": "doc_01", "reference_keywords": ["压缩映射", "唯一不动点", "完备"]}
+{"query_id": "q_03", "query": "勒贝格积分相比黎曼积分强在哪里？", "relevant_doc_id": "doc_02", "reference_keywords": ["函数值", "测度", "极限交换", "收敛定理"]}
+{"query_id": "q_04", "query": "为什么说勒贝格积分和测度论联系更紧密？", "relevant_doc_id": "doc_02", "reference_keywords": ["测度论", "可测", "收敛定理"]}
+{"query_id": "q_05", "query": "梯度下降什么时候会收敛？", "relevant_doc_id": "doc_03", "reference_keywords": ["L-光滑", "步长", "强凸", "线性收敛"]}
+{"query_id": "q_06", "query": "梯度下降的步长太大会怎样？", "relevant_doc_id": "doc_03", "reference_keywords": ["步长过大", "震荡", "发散"]}
+{"query_id": "q_07", "query": "牛顿法为什么通常比梯度下降收敛快？", "relevant_doc_id": "doc_04", "reference_keywords": ["二阶导数", "局部二次近似", "二次收敛"]}
+{"query_id": "q_08", "query": "牛顿法的主要计算代价来自哪里？", "relevant_doc_id": "doc_04", "reference_keywords": ["Hessian", "线性方程组", "计算代价"]}
+{"query_id": "q_09", "query": "最小二乘法的闭式解是什么？", "relevant_doc_id": "doc_05", "reference_keywords": ["X^T X", "闭式解", "X^T y"]}
+{"query_id": "q_10", "query": "最小二乘法的几何意义是什么？", "relevant_doc_id": "doc_05", "reference_keywords": ["正交投影", "列空间"]}
+{"query_id": "q_11", "query": "奇异值分解有什么用？", "relevant_doc_id": "doc_06", "reference_keywords": ["降维", "低秩近似", "压缩"]}
+{"query_id": "q_12", "query": "为什么截断奇异值可以得到低秩近似？", "relevant_doc_id": "doc_06", "reference_keywords": ["奇异值", "低秩近似", "最佳"]}
+{"query_id": "q_13", "query": "拉格朗日乘子法适合解决什么问题？", "relevant_doc_id": "doc_07", "reference_keywords": ["等式约束", "极值", "拉格朗日函数"]}
+{"query_id": "q_14", "query": "拉格朗日乘子法的一阶条件包括什么？", "relevant_doc_id": "doc_07", "reference_keywords": ["梯度条件", "约束", "乘子"]}
+{"query_id": "q_15", "query": "马尔可夫链的无后效性是什么意思？", "relevant_doc_id": "doc_08", "reference_keywords": ["当前状态", "历史无关", "转移矩阵"]}
+{"query_id": "q_16", "query": "什么时候马尔可夫链会收敛到平稳分布？", "relevant_doc_id": "doc_08", "reference_keywords": ["不可约", "非周期", "平稳分布"]}
+{"query_id": "q_17", "query": "连续和一致连续有什么区别？", "relevant_doc_id": "doc_09", "reference_keywords": ["同一个", "δ", "紧集", "一致连续"]}
+{"query_id": "q_18", "query": "为什么在紧集上连续函数一定一致连续？", "relevant_doc_id": "doc_09", "reference_keywords": ["紧集", "连续函数", "一致连续"]}
+{"query_id": "q_19", "query": "傅里叶级数的核心思想是什么？", "relevant_doc_id": "doc_10", "reference_keywords": ["周期函数", "正交基", "正弦", "余弦"]}
+{"query_id": "q_20", "query": "傅里叶分析有哪些典型应用？", "relevant_doc_id": "doc_10", "reference_keywords": ["偏微分方程", "信号处理", "图像压缩"]}
+{"query_id": "q_21", "query": "什么是强凸函数？", "relevant_doc_id": "doc_11", "reference_keywords": ["二次项下界", "强凸", "唯一极小点"]}
+{"query_id": "q_22", "query": "强凸性为什么有利于优化算法分析？", "relevant_doc_id": "doc_11", "reference_keywords": ["唯一极小点", "收敛速度", "强凸性"]}
+{"query_id": "q_23", "query": "常微分方程存在唯一性为什么会用到压缩映射原理？", "relevant_doc_id": "doc_12", "reference_keywords": ["Picard 迭代", "积分方程", "Banach 不动点定理"]}
+{"query_id": "q_24", "query": "证明常微分方程局部唯一解时常见的条件是什么？", "relevant_doc_id": "doc_12", "reference_keywords": ["局部 Lipschitz", "连续", "唯一解"]}

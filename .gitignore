@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+artifacts/index_*.pkl
+data/raw/docs.jsonl
+data/processed/chunks.jsonl
+PROJECT_RELEASE_NOTES.md
