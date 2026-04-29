@@ -7,3 +7,7 @@ data/raw/docs.jsonl
 data/processed/chunks.jsonl
 PROJECT_RELEASE_NOTES.md
 FILE_GUIDE.md
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
