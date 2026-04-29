@@ -1,6 +1,6 @@
 # 数学资料检索问答与评测系统
 
-这是一个面向数学课程资料的检索增强项目。它围绕“文档清洗 → 文本切块 → 检索 → 回答生成 → 评测 → 演示页面”构建了一条完整闭环，适合作为大模型应用 / RAG / 评测方向的项目。
+这是一个面向数学课程资料的检索增强项目。它围绕“文档清洗 → 文本切块 → 检索 → 回答生成 → 评测 → 演示页面”构建了一条完整闭环。
 
 ## 项目亮点
 
@@ -119,13 +119,6 @@ python run_pipeline.py --backend sbert
 ## 演示截图
 
 ![demo](docs/demo_screenshot.png)
-
-## 如何把它改成你自己的项目版本
-
-1. 用你的课程讲义、笔记、教材摘要替换 `data/raw/source_txt/`
-2. 重写 `eval_queries.jsonl`，让问题和你的资料一致
-3. 重新运行 `python run_pipeline.py --backend tfidf`
-4. 更新 `docs/project_report.md` 中的数据说明、评测结果和 bad case
 
 ## 后续可优化方向
 
