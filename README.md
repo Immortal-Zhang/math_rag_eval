@@ -54,7 +54,7 @@ pip install -r requirements.txt
 - 推荐文件名格式：`doc_01_压缩映射原理.txt`
 - 评测问题放到 `data/raw/eval_queries.jsonl`
 
-本项目已经自带一份小型示例语料，便于直接运行。后续你可以把 `source_txt` 和 `eval_queries.jsonl` 替换成你自己的资料。
+本项目已经自带一份小型示例语料，便于直接运行。也支持替换为其他课程资料以复现完整 RAG 流程。
 
 ## 快速开始
 
@@ -72,7 +72,7 @@ python generate_answer_rule.py --query "什么是压缩映射原理？" --backen
 python app.py
 ```
 
-若你已经安装好 `sentence-transformers` 并能下载模型，也可以试：
+若已经安装好 `sentence-transformers` 并能下载模型，也可以试：
 
 ```bash
 python run_pipeline.py --backend sbert
